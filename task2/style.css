@@ -118,6 +118,14 @@ button {
     justify-content: center;
 }
 
-.form__control:after{
-    border-color: rgb(66, 88, 201)
+.form__control:hover{
+    border: 1px solid rgb(66, 88, 201);
+}
+
+.form__control:focus {
+    border: 2px solid rgb(66, 88, 201);
+}
+
+input {
+    outline: 0;
 }
