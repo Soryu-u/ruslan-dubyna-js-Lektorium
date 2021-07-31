@@ -19,8 +19,13 @@ a {
     cursor: pointer;
 }
 
+
 a:hover {
     color: rgb(46, 69, 187);
+}
+
+input {
+    outline: 0;
 }
 
 button {
@@ -126,6 +131,4 @@ button {
     border: 2px solid rgb(66, 88, 201);
 }
 
-input {
-    outline: 0;
-}
+
